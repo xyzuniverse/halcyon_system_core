@@ -1388,7 +1388,6 @@ static void SetSafetyNetProps() {
     InitPropertySet("ro.boot.vbmeta.device_state", "locked");
     InitPropertySet("ro.boot.warranty_bit", "0");
     InitPropertySet("ro.build.tags", "release-keys");
-    InitPropertySet("ro.build.type", "user");
 }
 
 void PropertyInit() {
